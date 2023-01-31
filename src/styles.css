@@ -1,6 +1,19 @@
 .home {
+    display: flex;
     width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+
     background-image: linear-gradient(#648880, #293f50);
+
 }
 
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border: solid 1px black;
+    border-radius: 50%;
+    display: inline-block;
+}
