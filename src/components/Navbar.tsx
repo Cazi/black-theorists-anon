@@ -1,15 +1,20 @@
 import React from 'react'
-
+import '../styles/style-nav.css'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <p>Black Theorists Anonymous</p>
+        <Link className='text-link' to='/'>
+          <p>Black Theorists Anonymous</p>
+        </Link>
       </div>
       <div className="navbar-right">
-        <div className="about">Who We Are</div>
-        <div className="activities">What We Do</div>
-        <div className="contact">Contact Us</div>
+        <div className="about-click">
+          <Link className='text-link' to='/about'>Who We Are</Link>
+        </div>
+        <div className=".activities-button">What We Do</div>
+        <div className=".contact-button">Contact Us</div>
       </div>
     </div>
   )
