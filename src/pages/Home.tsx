@@ -1,19 +1,12 @@
 import React from 'react'
 import '../styles.css'
 import { motion } from "framer-motion";
+import Navbar from '../components/Navbar';
 
 const home = () => {
   return (
     <div className='home'>
-      <div className="navbar">
-        <div className="navbar-left">
-          Black Theorists Anonymous
-        </div>
-        <div className="navbar-right">
-          <div className="about"> Who We Are</div>
-          <div className="activities">What We Do</div>
-        </div>
-      </div>
+      <Navbar/>
       {/* <div>
         <motion.button
           className="box"
