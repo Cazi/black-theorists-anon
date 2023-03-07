@@ -7,33 +7,75 @@ const About = () => {
     <div className='about'>
       <Navbar />
       <h1 className='about-head'>About Us</h1>
-      <div className='personas'>
+      <div className='personas-row'>
+        <div className='persona'>
+          <motion.button
+            className="box"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            animate={{ opacity: 1, y: -100, scale: 1 }}
 
-        <motion.button
-          className="box"
-          initial={{ opacity: 0, y: 50, scale: 0.5 }}
-          animate={{ opacity: 1, y: -100, scale: 1 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.5 }}
+          />
+          <h3>Name</h3>
+        </div>
+        <div className='persona'>
+          <motion.button
+            className="box"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            animate={{ opacity: 1, y: -100, scale: 1 }}
 
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.5 }}
-        />
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.5 }}
+          />
+          <h3>Name</h3>
+        </div>
+        <div className='persona'>
+          <motion.button
+            className="box"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            animate={{ opacity: 1, y: -100, scale: 1 }}
 
-        <motion.button
-          className="box"
-          initial={{ opacity: 0, y: 50, scale: 0.5 }}
-          animate={{ opacity: 1, y: -100, scale: 1 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.5 }}
+          />
+          <h3>Name</h3>
+        </div>
+      </div >
+      <div className='personas-row'>
+        <div className='persona'>
+          <motion.button
+            className="box"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            animate={{ opacity: 1, y: -100, scale: 1 }}
 
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.5 }}
-        />
-        <motion.button
-          className="box"
-          initial={{ opacity: 0, y: 50, scale: 0.5 }}
-          animate={{ opacity: 1, y: -100, scale: 1 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.5 }}
+          />
+          <h3>Name</h3>
+        </div>
+        <div className='persona'>
+          <motion.button
+            className="box"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            animate={{ opacity: 1, y: -100, scale: 1 }}
 
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.5 }}
-        />
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.5 }}
+          />
+          <h3>Name</h3>
+        </div>
+        <div className='persona'>
+          <motion.button
+            className="box"
+            initial={{ opacity: 0, y: 50, scale: 0.5 }}
+            animate={{ opacity: 1, y: -100, scale: 1 }}
+
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.5 }}
+          />
+          <h3>Name</h3>
+        </div>
       </div >
     </div >
   )
