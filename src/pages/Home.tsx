@@ -6,7 +6,13 @@ import Navbar from '../components/Navbar';
 const home = () => {
   return (
     <div className='home'>
-      <Navbar/>
+      <Navbar />
+      <div className='home-image-spread'>
+        <img className='home-image-galaxy' src={require('./images/galaxy.jpg')} alt="" />
+        <img className='home-image-afroufo' src={require('./images/afroufo.jpg')} alt="" />
+      </div>
+      <p className='butler-quote'>"All that you touch, You Change. All that you Change, Changes you.
+        The only lasting truth is Change. God is Change." - Octavia Butler</p>
     </div>
   )
 }
