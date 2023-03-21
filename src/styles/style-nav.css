@@ -68,14 +68,15 @@
     padding: 10px;
 }
 
-.navbar-right div,
-.about-button {
+.navbar-right {
     font-weight: 600;
     font-size: 25px;
 }
 
 
 .about-button,
+.activities-button,
+.contact-button,
 .text-link {
     color: inherit;
     text-decoration: inherit;
